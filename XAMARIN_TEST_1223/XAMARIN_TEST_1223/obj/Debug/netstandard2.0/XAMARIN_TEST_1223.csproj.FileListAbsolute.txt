@@ -12,3 +12,17 @@ C:\Users\mari5\source\repos\XAMARIN_TEST_1223\XAMARIN_TEST_1223\XAMARIN_TEST_122
 C:\Users\mari5\source\repos\XAMARIN_TEST_1223\XAMARIN_TEST_1223\XAMARIN_TEST_1223\obj\Debug\netstandard2.0\XAMARIN_TEST_1223.dll
 C:\Users\mari5\source\repos\XAMARIN_TEST_1223\XAMARIN_TEST_1223\XAMARIN_TEST_1223\obj\Debug\netstandard2.0\ref\XAMARIN_TEST_1223.dll
 C:\Users\mari5\source\repos\XAMARIN_TEST_1223\XAMARIN_TEST_1223\XAMARIN_TEST_1223\obj\Debug\netstandard2.0\XAMARIN_TEST_1223.pdb
+C:\Users\rlaal\Source\Repos\kimminkuk\WATER_210101\XAMARIN_TEST_1223\XAMARIN_TEST_1223\bin\Debug\netstandard2.0\XAMARIN_TEST_1223.deps.json
+C:\Users\rlaal\Source\Repos\kimminkuk\WATER_210101\XAMARIN_TEST_1223\XAMARIN_TEST_1223\bin\Debug\netstandard2.0\XAMARIN_TEST_1223.dll
+C:\Users\rlaal\Source\Repos\kimminkuk\WATER_210101\XAMARIN_TEST_1223\XAMARIN_TEST_1223\bin\Debug\netstandard2.0\ref\XAMARIN_TEST_1223.dll
+C:\Users\rlaal\Source\Repos\kimminkuk\WATER_210101\XAMARIN_TEST_1223\XAMARIN_TEST_1223\bin\Debug\netstandard2.0\XAMARIN_TEST_1223.pdb
+C:\Users\rlaal\Source\Repos\kimminkuk\WATER_210101\XAMARIN_TEST_1223\XAMARIN_TEST_1223\obj\Debug\netstandard2.0\XAMARIN_TEST_1223.csprojAssemblyReference.cache
+C:\Users\rlaal\Source\Repos\kimminkuk\WATER_210101\XAMARIN_TEST_1223\XAMARIN_TEST_1223\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\rlaal\Source\Repos\kimminkuk\WATER_210101\XAMARIN_TEST_1223\XAMARIN_TEST_1223\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\rlaal\Source\Repos\kimminkuk\WATER_210101\XAMARIN_TEST_1223\XAMARIN_TEST_1223\obj\Debug\netstandard2.0\XAMARIN_TEST_1223.AssemblyInfoInputs.cache
+C:\Users\rlaal\Source\Repos\kimminkuk\WATER_210101\XAMARIN_TEST_1223\XAMARIN_TEST_1223\obj\Debug\netstandard2.0\XAMARIN_TEST_1223.AssemblyInfo.cs
+C:\Users\rlaal\Source\Repos\kimminkuk\WATER_210101\XAMARIN_TEST_1223\XAMARIN_TEST_1223\obj\Debug\netstandard2.0\XAMARIN_TEST_1223.csproj.CoreCompileInputs.cache
+C:\Users\rlaal\Source\Repos\kimminkuk\WATER_210101\XAMARIN_TEST_1223\XAMARIN_TEST_1223\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\rlaal\Source\Repos\kimminkuk\WATER_210101\XAMARIN_TEST_1223\XAMARIN_TEST_1223\obj\Debug\netstandard2.0\XAMARIN_TEST_1223.dll
+C:\Users\rlaal\Source\Repos\kimminkuk\WATER_210101\XAMARIN_TEST_1223\XAMARIN_TEST_1223\obj\Debug\netstandard2.0\ref\XAMARIN_TEST_1223.dll
+C:\Users\rlaal\Source\Repos\kimminkuk\WATER_210101\XAMARIN_TEST_1223\XAMARIN_TEST_1223\obj\Debug\netstandard2.0\XAMARIN_TEST_1223.pdb

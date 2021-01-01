@@ -12,6 +12,8 @@ namespace XAMARIN_TEST_1223
 {
     public partial class MainPage : ContentPage
     {
+        bool flg8 = false;
+
         public MainPage()
         {
             InitializeComponent();
@@ -82,54 +84,88 @@ namespace XAMARIN_TEST_1223
 
         private void water1_Clicked(object sender, EventArgs e)
         {
+            water1.IsVisible = false;
             water_eat_action();
-            
+            string str_time = DateTime.Now.ToString("HH:mm");
+            water1_eat_time.Text = str_time;
+            lasttime_eat_water.Text = str_time;
         }
 
         private void water2_Clicked(object sender, EventArgs e)
         {
+            water2.IsVisible = false;
             water_eat_action();
+            string str_time = DateTime.Now.ToString("HH:mm");
+            water2_eat_time.Text = str_time;
+            lasttime_eat_water.Text = str_time;
         }
 
         private void water3_Clicked(object sender, EventArgs e)
         {
+            water3.IsVisible = false;
             water_eat_action();
+            string str_time = DateTime.Now.ToString("HH:mm");
+            water3_eat_time.Text = str_time;
+            lasttime_eat_water.Text = str_time;
         }
 
         private void water4_Clicked(object sender, EventArgs e)
         {
+            water4.IsVisible = false;
             water_eat_action();
+            string str_time = DateTime.Now.ToString("HH:mm");
+            water4_eat_time.Text = str_time;
+            lasttime_eat_water.Text = str_time;
         }
 
         private void water5_Clicked(object sender, EventArgs e)
         {
+            water5.IsVisible = false;
             water_eat_action();
+            string str_time = DateTime.Now.ToString("HH:mm");
+            water5_eat_time.Text = str_time;
+            lasttime_eat_water.Text = str_time;
         }
 
         private void water6_Clicked(object sender, EventArgs e)
         {
+            water6.IsVisible = false;
             water_eat_action();
+            string str_time = DateTime.Now.ToString("HH:mm");
+            water6_eat_time.Text = str_time;
+            lasttime_eat_water.Text = str_time;
         }
 
         private void water7_Clicked(object sender, EventArgs e)
         {
+            water7.IsVisible = false;
             water_eat_action();
+            string str_time = DateTime.Now.ToString("HH:mm");
+            water7_eat_time.Text = str_time;
+            lasttime_eat_water.Text = str_time;
         }
 
         private void water8_Clicked(object sender, EventArgs e)
         {
-            water_eat_action();
+            if (flg8 == true)
+            {
+                water8.IsVisible = true;
+                water8_eat_time.Text = "";
+                flg8 = false;
+            } else
+            {
+                water8.IsVisible = false;
+                flg8 = true;
+
+                water_eat_action();
+                string str_time = DateTime.Now.ToString("HH:mm");
+                water8_eat_time.Text = str_time;
+                lasttime_eat_water.Text = str_time;
+            }
         }
 
         private void water_eat_action()
         {
-            DateTime today = DateTime.Now;
-            //일반 날짜 -> UTC 표준 날짜로 변경 -> ISO8601 Format
-            DateTime utcTime = today.ToUniversalTime();
-            //string str_time = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ"); //UTC Time
-            string str_time = DateTime.UtcNow.ToString("HH:mm:ss");
-            //string str_time = DateTime.Now.TimeOfDay.ToString(); // 가능한가?
-            label_time_eat_water.Text = str_time;
             f_vibrate_on();
         }
     }
