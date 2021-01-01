@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XAMARIN_TEST_1223.MainPage">
+<!--
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="하루 8잔" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="최근 물 먹은 시간 표시" x:Name="label_time_eat_water" Margin="40,40,50,40"></Label>
+        <StackLayout>
+            <ImageButton Source="watercup_1.png" x:Name="water1"  WidthRequest="15" HeightRequest="10" Margin="20,20,20,20" Clicked="ImageButton_Clicked"></ImageButton>
+        </StackLayout>
+    </StackLayout>
+-->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <BoxView Color="Blue"
+                 Grid.Row="0"
+                 Grid.ColumnSpan="4"/>
+        <Label Text="하루 8잔"
+               FontSize="24"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        <ImageButton Source="watercup_2.png" x:Name="water1" 
+                     Grid.Row="1" Grid.Column="0" 
+                     Clicked="water1_Clicked">
+            <VisualStateManager.VisualStateGroups>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal">
+                        <VisualState.Setters>
+                            <Setter Property="Scale"
+                                    Value="1"/>
+                        </VisualState.Setters>
+                    </VisualState>
+                    <VisualState x:Name="MouseOver">
+                        <VisualState.Setters>
+                            <Setter Property="Scale"
+                                    Value="0.5"/>
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateManager.VisualStateGroups>
+        </ImageButton>
+        <ImageButton Source="watercup_2.png" x:Name="water2" 
+                     Grid.Row="1" Grid.Column="1" 
+                     Clicked="water2_Clicked"></ImageButton>
+        <ImageButton Source="watercup_2.png" x:Name="water3" 
+                     Grid.Row="1" Grid.Column="2" 
+                     Clicked="water3_Clicked"></ImageButton>
+        <ImageButton Source="watercup_2.png" x:Name="water4" 
+                     Grid.Row="1" Grid.Column="3"
+                     Clicked="water4_Clicked"></ImageButton>
+        <ImageButton Source="watercup_2.png" x:Name="water5" 
+                     Grid.Row="2" Grid.Column="0"
+                     Clicked="water5_Clicked"></ImageButton>
+        <ImageButton Source="watercup_2.png" x:Name="water6" 
+                     Grid.Row="2" Grid.Column="1"
+                     Clicked="water6_Clicked"></ImageButton>
+        <ImageButton Source="watercup_2.png" x:Name="water7" 
+                     Grid.Row="2" Grid.Column="2" 
+                     Clicked="water7_Clicked"></ImageButton>
+        <ImageButton Source="watercup_2.png" x:Name="water8" 
+                     Grid.Row="2" Grid.Column="3"
+                     Clicked="water8_Clicked"></ImageButton>
+        <Label Text="Time"
+               FontSize="24"
+               Grid.Row="3"
+               Grid.Column="0"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        <Label Text="마지막 먹은 시간"
+               x:Name="label_time_eat_water"
+               FontSize="24"
+               Grid.Row="3"
+               Grid.ColumnSpan="4"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+    </Grid>
+</ContentPage>
