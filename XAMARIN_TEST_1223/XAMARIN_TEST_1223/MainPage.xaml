@@ -137,5 +137,40 @@
                Grid.Column="3"
                HorizontalOptions="Center"
                VerticalOptions="Center"/>
+        <Switch Toggled="Switch_Toggled"
+               Grid.Row="4"
+               Grid.Column="1">
+            <VisualStateManager.VisualStateGroups>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="On">
+                        <VisualState.Setters>
+                            <Setter Property="ThumbColor"
+                            Value="MediumSpringGreen" />
+                        </VisualState.Setters>
+                    </VisualState>
+                    <VisualState x:Name="Off">
+                        <VisualState.Setters>
+                            <Setter Property="ThumbColor"
+                            Value="Red" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateManager.VisualStateGroups>
+        </Switch>
+        <Button Text="Save"
+                Clicked="Button_Clicked_1"
+                BackgroundColor="Green"
+                Grid.Row="4"
+                Grid.Column="2"/>
+        <Button Text="Load"
+                Clicked="Button_Clicked"
+                Grid.Row="4"
+                Grid.Column="3"/>
+        <Button Text="Clear"
+                Clicked="Button_Clicked_2"
+                BackgroundColor="Blue"
+                Grid.Row="4"
+                Grid.Column="0"/>
+        
     </Grid>
 </ContentPage>

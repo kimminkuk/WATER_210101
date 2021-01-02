@@ -12,6 +12,7 @@ namespace XAMARIN_TEST_1223
 {
     public partial class MainPage : ContentPage
     {
+        string flg_1 = "";
         bool flg8 = false;
         //bool rememberMe = false;
 
@@ -19,9 +20,10 @@ namespace XAMARIN_TEST_1223
         {
             InitializeComponent();
             //timerPicker2.Time = DateTime.Now.TimeOfDay; // timerPcker2에 현재 시간 표시
+            //flg_1 = GetValue_bool("mykey");
         }
-        bool rememberMe = false;
 
+        
 
 #if false
         private void Switch_Toggled(object sender, ToggledEventArgs e)
@@ -85,14 +87,18 @@ namespace XAMARIN_TEST_1223
                 // Other error has occured
             }
         }
-
+        
         private void water1_Clicked(object sender, EventArgs e)
         {
-            water1.IsVisible = false;
-            water_eat_action();
-            string str_time = DateTime.Now.ToString("HH:mm");
-            water1_eat_time.Text = str_time;
-            lasttime_eat_water.Text = str_time;
+            if (flg_1 != "true")
+            {
+                water1.IsVisible = false;
+                water_eat_action();
+                string str_time = DateTime.Now.ToString("HH:mm");
+                water1_eat_time.Text = str_time;
+                lasttime_eat_water.Text = str_time;
+            }
+            flg_1 = "true";
         }
 
         private void water2_Clicked(object sender, EventArgs e)
@@ -171,7 +177,54 @@ namespace XAMARIN_TEST_1223
         private void water_eat_action()
         {
             f_vibrate_on();
+         
         }
         
+
+        public void AddValue(string key, string value)
+        {
+            Preferences.Set(key, value);
+        }
+        public string GetValue_bool(string key)
+        {
+            return Preferences.Get(key, "");
+        }
+
+        public bool RememberMe
+        { 
+            get => Preferences.Get(nameof(RememberMe), false);
+            set
+            {
+                Preferences.Set(nameof(RememberMe), true);
+                OnPropertyChanged(nameof(RememberMe));
+            }
+        }
+
+        private void Switch_Toggled(object sender, ToggledEventArgs e)
+        {
+            if (e.Value)
+            {
+                string test;
+            }
+            else //off
+            {
+                string test_;
+            }
+        }
+
+        private void Button_Clicked(object sender, EventArgs e) //load
+        {
+            flg_1 = GetValue_bool("mykey_flg_1");
+        }
+
+        private void Button_Clicked_1(object sender, EventArgs e) //save
+        {
+            AddValue("mykey_flg_1", flg_1);
+        }
+
+        private void Button_Clicked_2(object sender, EventArgs e)
+        {
+            Preferences.Remove("mykey_flg_1");
+        }
     }
 }

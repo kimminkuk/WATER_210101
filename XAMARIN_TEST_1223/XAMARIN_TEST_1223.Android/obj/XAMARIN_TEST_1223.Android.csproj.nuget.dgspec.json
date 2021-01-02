@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mari5\\Source\\Repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.Android\\XAMARIN_TEST_1223.Android.csproj": {}
+    "C:\\Users\\rlaal\\source\\repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.Android\\XAMARIN_TEST_1223.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mari5\\Source\\Repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.Android\\XAMARIN_TEST_1223.Android.csproj": {
+    "C:\\Users\\rlaal\\source\\repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.Android\\XAMARIN_TEST_1223.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mari5\\Source\\Repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.Android\\XAMARIN_TEST_1223.Android.csproj",
+        "projectUniqueName": "C:\\Users\\rlaal\\source\\repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.Android\\XAMARIN_TEST_1223.Android.csproj",
         "projectName": "XAMARIN_TEST_1223.Android",
-        "projectPath": "C:\\Users\\mari5\\Source\\Repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.Android\\XAMARIN_TEST_1223.Android.csproj",
-        "packagesPath": "C:\\Users\\mari5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mari5\\Source\\Repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.Android\\obj\\",
+        "projectPath": "C:\\Users\\rlaal\\source\\repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.Android\\XAMARIN_TEST_1223.Android.csproj",
+        "packagesPath": "C:\\Users\\rlaal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rlaal\\source\\repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\mari5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rlaal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\mari5\\Source\\Repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.csproj": {
-                "projectPath": "C:\\Users\\mari5\\Source\\Repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.csproj"
+              "C:\\Users\\rlaal\\source\\repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.csproj": {
+                "projectPath": "C:\\Users\\rlaal\\source\\repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.csproj"
               }
             }
           }
@@ -54,20 +54,20 @@
         }
       }
     },
-    "C:\\Users\\mari5\\Source\\Repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.csproj": {
+    "C:\\Users\\rlaal\\source\\repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mari5\\Source\\Repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.csproj",
+        "projectUniqueName": "C:\\Users\\rlaal\\source\\repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.csproj",
         "projectName": "XAMARIN_TEST_1223",
-        "projectPath": "C:\\Users\\mari5\\Source\\Repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.csproj",
-        "packagesPath": "C:\\Users\\mari5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mari5\\Source\\Repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223\\obj\\",
+        "projectPath": "C:\\Users\\rlaal\\source\\repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.csproj",
+        "packagesPath": "C:\\Users\\rlaal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rlaal\\source\\repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\mari5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rlaal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
