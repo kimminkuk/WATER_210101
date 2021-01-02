@@ -13,12 +13,16 @@ namespace XAMARIN_TEST_1223
     public partial class MainPage : ContentPage
     {
         bool flg8 = false;
+        //bool rememberMe = false;
 
         public MainPage()
         {
             InitializeComponent();
             //timerPicker2.Time = DateTime.Now.TimeOfDay; // timerPcker2에 현재 시간 표시
         }
+        bool rememberMe = false;
+
+
 #if false
         private void Switch_Toggled(object sender, ToggledEventArgs e)
         {
@@ -168,5 +172,6 @@ namespace XAMARIN_TEST_1223
         {
             f_vibrate_on();
         }
+        
     }
 }

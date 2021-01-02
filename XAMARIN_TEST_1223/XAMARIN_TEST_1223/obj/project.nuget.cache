@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "lx/25UGCW7hlmiGFtXgT7W4E+lp3CnDn3f2LiPGu1GudkTVzzOOpxK0HYwB6fDdYwfcQ5TCxfiPYMcNTd1CxjA==",
+  "dgSpecHash": "De7p5DJ0Trhjbke2V0OrJMUIYO6BmRTEAGCQZEzEvADB5MR/yroPxVHsVyJdCOkxXnq8XTeBBHZnx4ir0npvKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rlaal\\Source\\Repos\\kimminkuk\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.csproj",
+  "projectFilePath": "C:\\Users\\mari5\\Source\\Repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rlaal\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\rlaal\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\rlaal\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\rlaal\\.nuget\\packages\\xamarin.essentials\\1.6.0\\xamarin.essentials.1.6.0.nupkg.sha512",
+    "C:\\Users\\mari5\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\mari5\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\mari5\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\mari5\\.nuget\\packages\\xamarin.essentials\\1.6.0\\xamarin.essentials.1.6.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
   "logs": []

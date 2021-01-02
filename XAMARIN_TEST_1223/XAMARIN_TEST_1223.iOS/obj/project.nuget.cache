@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "eGFc2xM1+dRku3G+5QLiS+nbe4Xb9lNShTMJmTlebKKczCld/mOQPOelu6k85TksSTxnDA3zxzRDeK+VxlUyWg==",
+  "dgSpecHash": "s+Uefd1/VtdGclzVxgc06/HgOf0av+SMX1SRj91VG/2XH+7zBPPKjFVYLEgKUTjK56RFgwq23pkRFFw7NXJI5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rlaal\\Source\\Repos\\kimminkuk\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.iOS\\XAMARIN_TEST_1223.iOS.csproj",
+  "projectFilePath": "C:\\Users\\mari5\\Source\\Repos\\WATER_210101\\XAMARIN_TEST_1223\\XAMARIN_TEST_1223.iOS\\XAMARIN_TEST_1223.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rlaal\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\rlaal\\.nuget\\packages\\xamarin.essentials\\1.6.0\\xamarin.essentials.1.6.0.nupkg.sha512",
+    "C:\\Users\\mari5\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\mari5\\.nuget\\packages\\xamarin.essentials\\1.6.0\\xamarin.essentials.1.6.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
   "logs": []
