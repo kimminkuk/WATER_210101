@@ -2,17 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XAMARIN_TEST_1223.MainPage">
-<!--
-    <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="하루 8잔" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Label Text="최근 물 먹은 시간 표시" x:Name="label_time_eat_water" Margin="40,40,50,40"></Label>
-        <StackLayout>
-            <ImageButton Source="watercup_1.png" x:Name="water1"  WidthRequest="15" HeightRequest="10" Margin="20,20,20,20" Clicked="ImageButton_Clicked"></ImageButton>
-        </StackLayout>
-    </StackLayout>
--->
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="100"/>
@@ -35,60 +25,7 @@
                Grid.ColumnSpan="4"
                HorizontalOptions="Center"
                VerticalOptions="Center"/>
-        <ImageButton Source="watercup_2.png" x:Name="water1" 
-                     Grid.Row="1" Grid.Column="0" 
-                     Clicked="water1_Clicked">
-            <VisualStateManager.VisualStateGroups>
-                <VisualStateGroup x:Name="CommonStates">
-                    <VisualState x:Name="Normal">
-                        <VisualState.Setters>
-                            <Setter Property="Scale"
-                                    Value="1"/>
-                        </VisualState.Setters>
-                    </VisualState>
-                    <VisualState x:Name="MouseOver">
-                        <VisualState.Setters>
-                            <Setter Property="Scale"
-                                    Value="0.5"/>
-                        </VisualState.Setters>
-                    </VisualState>
-                </VisualStateGroup>
-            </VisualStateManager.VisualStateGroups>
-        </ImageButton>
-        <ImageButton Source="watercup_2.png" x:Name="water2" 
-                     Grid.Row="1" Grid.Column="1" 
-                     Clicked="water2_Clicked"></ImageButton>
-        <ImageButton Source="watercup_2.png" x:Name="water3" 
-                     Grid.Row="1" Grid.Column="2" 
-                     Clicked="water3_Clicked"></ImageButton>
-        <ImageButton Source="watercup_2.png" x:Name="water4" 
-                     Grid.Row="1" Grid.Column="3"
-                     Clicked="water4_Clicked"></ImageButton>
-        <ImageButton Source="watercup_2.png" x:Name="water5" 
-                     Grid.Row="2" Grid.Column="0"
-                     Clicked="water5_Clicked"></ImageButton>
-        <ImageButton Source="watercup_2.png" x:Name="water6" 
-                     Grid.Row="2" Grid.Column="1"
-                     Clicked="water6_Clicked"></ImageButton>
-        <ImageButton Source="watercup_2.png" x:Name="water7" 
-                     Grid.Row="2" Grid.Column="2" 
-                     Clicked="water7_Clicked"></ImageButton>
-        <ImageButton Source="watercup_2.png" x:Name="water8" 
-                     Grid.Row="2" Grid.Column="3"
-                     Clicked="water8_Clicked"></ImageButton>
-        <Label Text="LastTime"
-               FontSize="20"
-               Grid.Row="3"
-               Grid.Column="0"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"/>
-        <Label Text="마지막 먹은 시간"
-               x:Name="lasttime_eat_water"
-               FontSize="24"
-               Grid.Row="3"
-               Grid.ColumnSpan="4"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"/>
+
         <Label x:Name="water1_eat_time"
                FontSize="20"
                Grid.Row="1"
@@ -137,40 +74,55 @@
                Grid.Column="3"
                HorizontalOptions="Center"
                VerticalOptions="Center"/>
-        <Switch Toggled="Switch_Toggled"
-               Grid.Row="4"
-               Grid.Column="1">
-            <VisualStateManager.VisualStateGroups>
-                <VisualStateGroup x:Name="CommonStates">
-                    <VisualState x:Name="On">
-                        <VisualState.Setters>
-                            <Setter Property="ThumbColor"
-                            Value="MediumSpringGreen" />
-                        </VisualState.Setters>
-                    </VisualState>
-                    <VisualState x:Name="Off">
-                        <VisualState.Setters>
-                            <Setter Property="ThumbColor"
-                            Value="Red" />
-                        </VisualState.Setters>
-                    </VisualState>
-                </VisualStateGroup>
-            </VisualStateManager.VisualStateGroups>
-        </Switch>
+
         <Button Text="Save"
                 Clicked="Button_Clicked_1"
                 BackgroundColor="Green"
+                BorderColor="Green"
+                BorderWidth="50"
+                CornerRadius="50"
+
                 Grid.Row="4"
                 Grid.Column="2"/>
         <Button Text="Load"
                 Clicked="Button_Clicked"
+                BackgroundColor="YellowGreen"
+                BorderColor="YellowGreen"
+                BorderWidth="10"
+                CornerRadius="10"
                 Grid.Row="4"
                 Grid.Column="3"/>
+        
         <Button Text="Clear"
                 Clicked="Button_Clicked_2"
                 BackgroundColor="Blue"
                 Grid.Row="4"
                 Grid.Column="0"/>
-        
+
+        <Image x:Name="imgtest1" Source="watercup_2.png" 
+               Grid.Row="1"
+               Grid.Column="0"/>
+        <Image x:Name="imgtest2" Source="watercup_2.png" 
+               Grid.Row="1"
+               Grid.Column="1"/>
+        <Image x:Name="imgtest3" Source="watercup_2.png" 
+               Grid.Row="1"
+               Grid.Column="2"/>
+        <Image x:Name="imgtest4" Source="watercup_2.png" 
+               Grid.Row="1"
+               Grid.Column="3"/>
+        <Image x:Name="imgtest5" Source="watercup_2.png" 
+               Grid.Row="2"
+               Grid.Column="0"/>
+        <Image x:Name="imgtest6" Source="watercup_2.png" 
+               Grid.Row="2"
+               Grid.Column="1"/>
+        <Image x:Name="imgtest7" Source="watercup_2.png" 
+               Grid.Row="2"
+               Grid.Column="2"/>
+        <Image x:Name="imgtest8" Source="watercup_2.png" 
+               Grid.Row="2"
+               Grid.Column="3"/>
+
     </Grid>
 </ContentPage>
